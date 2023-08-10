@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+	background-image: url(../back.jpg);
+	background-size:cover;
+	font-family: Roboto Mono;
+	color:#FFF;
+}
+
+.container {
+	display: flex;
+	margin:0 auto;
+	padding:40px;
+	width: 40%;
+	background: linear-gradient(109.45deg, rgba(217, 217, 217, 0.5) 0%, rgba(217, 217, 217, 0) 100%);
+	border-radius: 1rem;
+	border:2px solid #FFF;
+	backdrop-filter: blur(5px);
+	position: absolute;
+	top:30%;
+	bottom:0;
+	right: 0;
+	left:0;
+	height: 190px;
+}
+
+h1 {
+	text-align: center;
+	margin-top:10%;
+}
+
+form {
+	display: block;
+	margin:0 auto;
+	width: 100%;
+	margin-right: -15px;
+}
+
+input {
+	background: rgba(255,255,255,0.2);
+	border:none;
+	border-radius: 10px;
+	outline: none;
+	padding:10px;
+	transition: all 0.25s;
+	color:#FFF;
+}
+
+input::placeholder {
+	color:rgba(255,255,255,0.4);
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+	box-shadow: 0px 0px 21px 1px rgba(105,203,255,1);
+	transition: all 0.25s;
+}
+
+
+.cvv {
+	width: 10%;
+}
+
+.card_number {
+	width: 91.2%;
+	display: flex;
+}
+
+input[type="submit"] {
+	width: 79.2%;
+	border:2px solid rgba(0, 0, 0, 0);
+	transition: all 0.25s;
+}
+
+input[type="submit"]:hover {
+	background: transparent;
+	border:2px solid #FFF;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+input[type="date"] {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
